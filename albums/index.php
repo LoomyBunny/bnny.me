@@ -26,6 +26,7 @@
 <div class="container">
   <div class="content">
     <h3>Recent Photo Albums</h3>
+    <div class="content-buttons">
     <?php
     $albumlinks = ["https://photos.app.goo.gl/ZqCPHinV63Uywk4w7",
                    "https://photos.app.goo.gl/DaXNGG7DonLoumNn8",
@@ -50,9 +51,11 @@
     foreach ($albumlinks as $index => $album) {
       $name = $albumNames[$index];
       echo "<form action=\"$album\">\n";
-      echo "<button type=\"submit\">$name</button>";
+      echo "<button type=\"submit\" class=\"content-btn\">$name</button>";
       echo "</form>";
     }
+    ?>
+    </div>
 
     ?>
 

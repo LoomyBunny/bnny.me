@@ -8,26 +8,23 @@
   </head>    
 <body>
 
-  <style>
-    .container {
-      background-color: coral;
-    }
-  </style>
+
 
 <?php include '../includes/navigation.php'; ?>
 
-<div class="container">
+<div class="container coral">
   <div class="content">
     <h3>Projects</h3>
     <p class="fixed-width">Welcome to my projects page! This is where I showcase the various hardware and software projects I've worked on.</p>
     <p class="fixed-width">Below you'll find links to some of my favorite projects that I'm proud to share with the community.</p>
-    
-    <form action="/tablet/">
-      <button type="submit">Tablet Project</button>
-    </form>
-    <form action="/fluid/">
-      <button type="submit">Fluid Simulation</button>
-    </form>
+    <div class="content-buttons">
+      <form action="/tablet/">
+        <button type="submit" class="content-btn">Tablet Project</button>
+      </form>
+      <form action="/fluid/">
+        <button type="submit" class="content-btn">Fluid Simulation</button>
+      </form>
+    </div>
   </div>
 </div>
 

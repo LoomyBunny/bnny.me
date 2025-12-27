@@ -27,7 +27,7 @@
   <div class="content">
     <h3>Photos by Loomy</h3>
     <div class="footer">
-      <button onclick="refresh()">random image</button>
+      <button onclick="refresh()" class="footer-btn">random image</button>
 
 
 <script>
