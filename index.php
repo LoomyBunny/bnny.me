@@ -21,22 +21,7 @@
     }
   </style>
 
-<div class="nav">
-  <?php
-  $navItems = [
-      ['url' => 'https://bnny.me/albums/', 'text' => 'Albums'],
-      ['url' => 'https://bnny.me/tablet/', 'text' => 'Tablet'],
-      ['url' => 'https://bnny.me/fluid/', 'text' => 'Fluid'],
-      ['url' => '/blog/', 'text' => 'Blog']
-  ];
-  
-  foreach ($navItems as $item) {
-      echo "<form action=\"{$item['url']}\">
-        <button type=\"submit\">{$item['text']}</button>
-      </form>";
-  }
-  ?>
-</div>
+<?php include 'includes/navigation.php'; ?>
 
 <div class="container">
   <div class="content">

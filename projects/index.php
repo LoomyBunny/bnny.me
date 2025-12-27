@@ -8,8 +8,6 @@
   </head>    
 <body>
 
-
-
   <style>
     .container {
       background-color: coral;
@@ -20,16 +18,18 @@
 
 <div class="container">
   <div class="content">
-    <h3>Fluid Simulation Badge</h3>
-    <p class="fixed-width">Thank you for visiting this page!  I spent about three months and two hardware revisons making this badge.
-      It's been a work of love!</p>
-    <p class="fixed-width">If youre interested,  I added all the code and schematics are uploaded <a href="https://github.com/LoomyBunny/FluidSim">here</a>. 
-  If you run into any bugs or problems feel free to reach out and I'll try to get you a patched file.</p>
+    <h3>Projects</h3>
+    <p class="fixed-width">Welcome to my projects page! This is where I showcase the various hardware and software projects I've worked on.</p>
+    <p class="fixed-width">Below you'll find links to some of my favorite projects that I'm proud to share with the community.</p>
+    
+    <form action="/tablet/">
+      <button type="submit">Tablet Project</button>
+    </form>
+    <form action="/fluid/">
+      <button type="submit">Fluid Simulation</button>
+    </form>
   </div>
 </div>
-
-
-
 
 <script>
 

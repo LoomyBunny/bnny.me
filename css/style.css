@@ -125,6 +125,12 @@ html, body {
   color: #333;
 }
 
+.nav button.active {
+  background: #fff;
+  color: #333;
+  font-weight: bold;
+}
+
 .content {
   margin-top: -10px;
 }
