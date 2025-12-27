@@ -1,0 +1,11 @@
+# Ignore random image file to avoid unnecessary binary commits
+/img/randomimage.jpg
+
+# Ignore temporary files
+*.swp
+*.swo
+*~
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
