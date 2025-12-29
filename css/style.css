@@ -81,11 +81,6 @@ html, body {
   transition: all 0.3s ease;
 }
 
-.container .content .footer button:hover {
-  background: #fff;
-  color: #333;
-}
-
 .footer-btn {
   color: #fff;
   background: #000;
@@ -103,11 +98,6 @@ html, body {
 }
 
 .footer-btn:hover {
-  background: #fff;
-  color: #333;
-}
-
-.container .content .footer button:hover {
   background: #fff;
   color: #333;
 }
@@ -152,6 +142,13 @@ html, body {
   background: #fff;
   color: #333;
   font-weight: bold;
+}
+
+.nav button.back-btn {
+  width: auto;
+  min-width: 30px;
+  padding: 5px 8px;
+  font-size: 10px;
 }
 
 .nav-btn {

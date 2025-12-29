@@ -4,6 +4,13 @@
   $currentPath = $_SERVER['REQUEST_URI'];
   $currentPath = strtok($currentPath, '?'); // Remove query parameters
   
+  // Add back button only on tablet and fluid pages
+  if (strpos($currentPath, '/tablet') !== false || strpos($currentPath, '/fluid') !== false) {
+      echo "<form action=\"/\">
+        <button type=\"submit\" class=\"back-btn\">←</button>
+      </form>";
+  }
+  
   $navItems = [
       ['url' => '/', 'text' => 'Home'],
       ['url' => 'https://bnny.me/albums/', 'text' => 'Albums'],
